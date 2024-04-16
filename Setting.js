@@ -44,11 +44,11 @@ global.audio = '' ;
 global.video = '' ;
 global.lol   = 'GataDios'
 global.cali  = `lykoUzNh`
-global.devs  = "923466319114";
+global.devs  = "919131652091";
 global.inrl_key = `inrl-bot-mdaqz3ks6md7`;
 global.inrl_api = `https://upper-romy-inrl-bot.koyeb.app/`;
-global.blockJids = process.env.BLOCK_JID ||'120363169665426586@g.us' ;
-global.allowJids = process.env.ALLOW_JID ||'120363169665426586@g.us' ;
+global.blockJids = process.env.BLOCK_JID ||'' ;
+global.allowJids = process.env.ALLOW_JID ||'' ;
 global.email     = 'support@maher-zubair.tech' ; 
 global.github    = 'https://github.com/Maher-Zubair/SIGMA-MD' ;
 global.location  = 'Lahore, Pakistan' ;
@@ -78,7 +78,7 @@ module.exports = {
   sessionName: process.env.SESSION_ID || '',              // PUT YOUR SESSION ID
   botname: process.env.BOT_NAME       || 'sɪɢᴍᴀ-ᴍᴅ',         // ADD YOUR BOT NAME
   ownername:  process.env.OWNER_NAME  || `ᴍᴀʜᴇʀ ᴢᴜʙᴀɪʀ`, // ADD YOUR NAME
-  HANDLERS: process.env.PREFIX        || '.',              // ADD YOUR BOT PREFIX
+  HANDLERS: process.env.PREFIX        || '/',              // ADD YOUR BOT PREFIX
   WORKTYPE: process.env.WORKTYPE      || 'public',      // IF PRIVATE ONLY YOU CAN USE YOUR BOT, IF PUBLIC EVERYONE CAN USE YOUR BOT
   //================================================================================
 
